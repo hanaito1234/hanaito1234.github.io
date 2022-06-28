@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Psedu Classes</title>
+    <style>
+        /*input[type="text"]:hover{
+            background-color: goldenrod;
+            color: white;
+            padding: 2px;
+        }*/
+        input[type="text"]:focus{
+            background-color: goldenrod;
+            color: white;
+            padding: 2px;
+        }
+        .btn_save:hover{
+            background-color: brown;
+            color: white;
+            padding: 15px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" autocomplete="off">
+        <h2>Personal Information</h2>
+        <label for="first-name">First name</label>
+        <input type="text" name="first_name" id="first_name">
+        <br>
+        <label for="last-name">Last name</label>
+        <input type="text" name="last-name" id="last-name">
+        <br>
+        <input type="btn_save" type="submit" value="SAVE">
+    </form>
+    <h2>aaaa</h2>
+</body>
+</html>
